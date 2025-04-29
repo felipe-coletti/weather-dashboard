@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.csv
+*.out
+*.pid
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sw?
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+temp/
+tmp/
+
+# Configs de exemplo
+backend/config.js
+frontend/config.json
+
+# MongoDB
+dump/

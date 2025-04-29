@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather Station Display</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <script src="scripts/script.js" defer></script>
+    </head>
+    <body>
+        <main class="container">
+            <div class="content">
+                <div class="header">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path
+                            fill="currentColor"
+                            d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"
+                        />
+                    </svg>
+                    <h2 id="location" class="secondary-title title">Carregando...</h2>
+                </div>
+                <div id="weather-info">
+                    <img id="weather-icon" src="assets/icons/sunny.gif" />
+                    <h1 id="temperature" class="primary-title title">0 °C</h1>
+                </div>
+                <div id="weather-details">
+                    <div class="weather-detail">
+                        <p class="paragraph">Umidade</p>
+                        <h2 id="humidity" class="secondary-title title">0%</h2>
+                    </div>
+                    <div class="weather-detail">
+                        <p class="paragraph">Velocidade do vento</p>
+                        <h2 id="wind-speed" class="secondary-title title">0 Km/h</h2>
+                    </div>
+                    <div class="weather-detail">
+                        <p class="paragraph">Pressão</p>
+                        <h2 id="pressure" class="secondary-title title">0 hPa</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
