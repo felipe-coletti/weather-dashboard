@@ -1,4 +1,4 @@
-# Weather Station Kit
+# Weather Dashboard
 
 A complete and modular software kit to create your own local weather station, including backend, frontend, and support for embedded system integration.
 
@@ -34,7 +34,7 @@ weather-station-kit/
 
 ```bash
 git clone <repo-url>
-cd weather-station-kit
+cd weather-dashboard
 ```
 
 ### 2. Backend setup
