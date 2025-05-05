@@ -2,7 +2,7 @@ import Weather from '../models/Weather.js'
 
 export async function receiveWeatherData(req, res) {
     try {
-        const { temperature, humidity, windSpeed, pressure, location, condition } = req.body
+        const { temperature, humidity, windSpeed, pressure, location, condition, timestamp } = req.body
 
         const weather = new Weather({
             temperature,
@@ -10,7 +10,8 @@ export async function receiveWeatherData(req, res) {
             windSpeed,
             pressure,
             location,
-            condition
+            condition,
+            timestamp
         })
 
         await weather.save()
