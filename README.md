@@ -33,7 +33,7 @@ weather-station-kit/
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url>
+git clone <repository-url>
 cd weather-dashboard
 ```
 
