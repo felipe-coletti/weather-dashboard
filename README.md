@@ -13,13 +13,13 @@ A complete and modular software kit to create your own local weather station, in
 
 ```
 weather-station-kit/
-├── backend/
+├── back-end/
 │   ├── routes/
 │   ├── controllers/
 │   ├── models/
 │   ├── .env.example
 │   └── index.js
-├── frontend/
+├── front-end/
 │   ├── assets/
 │   ├── config.example.json
 │   └── index.html
